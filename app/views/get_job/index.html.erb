@@ -1,0 +1,8 @@
+
+<%= submit_tag "More job", id:"submit" %>
+
+<div id="jobs">
+  <% @jobs.each do |job| %>
+    <%= job.title %><br>
+  <% end %>
+</div>
